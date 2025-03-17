@@ -1,0 +1,53 @@
+div{
+    background-color: rgb(241, 198, 140);
+    border: black solid 1pt;
+    margin: 20px;
+    padding: 10px;
+}
+
+.important{
+    background-color: brown;
+    color: beige;
+}
+
+.flexBox{
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #afa0a0;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu ul li{
+    margin: 80px;
+}
+
+.menu ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .menu ul li a:hover{
+    color: aqua;
+  }
